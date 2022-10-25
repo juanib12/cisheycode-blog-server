@@ -14,7 +14,7 @@ app.use(require("express").urlencoded({ extended: true }));
 app.use(express.json());
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://cisheycode.vercel.app",
   credentials: true,
 };
 
